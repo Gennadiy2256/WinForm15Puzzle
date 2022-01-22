@@ -67,8 +67,6 @@ namespace _15Puzzle
             }
         }
 
-        #region --==## UI PART ##==--
-
         private void LoadButtons()
         {
             for (int i = 0; i < builder.Side; i++)
@@ -123,13 +121,5 @@ namespace _15Puzzle
             string msg = "VICTORY";
             MessageBox.Show(string.Format("{0, 18}", msg));
         }
-
-        #endregion
-
-
-
-
-
-
     }
 }
